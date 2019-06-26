@@ -1,0 +1,185 @@
+
+header {
+
+    width: 100%;
+
+}
+
+.top {
+width: 100%;
+display: inline-flex;
+margin: 10% 0 0 5%;
+    
+@media @phone {
+    flex-direction: column;
+     display: flex;
+
+    }
+
+    @media @tablet {
+
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    br {
+
+        margin-bottom: 5%;
+    }
+
+
+    }
+    #slogan {
+
+        font-family: 'Muli';
+        font-weight: bold;
+        align-content: center;
+        color: white;
+        //text-shadow: 1px 1px 2px lightgray;
+        width: 33%;
+        margin-top: -4%;
+        padding: 5%;
+
+        h2 {
+            color: @color1;
+        }
+    
+           
+        @media @phone {
+            width:60%;
+            font-size: .25rem;
+            height: 20%;
+            text-shadow: 1px 1px 2px darkslategray;
+
+            p {
+               display: none;     
+
+            }
+            
+            h2 {
+
+             font-size: 1.25rem;
+             margin: 10% 0 0 0; 
+             color: white;                  
+            }
+        
+        }  
+        @media @tablet {
+        display: block;
+        position: relative;
+        left: 30%;
+        width: 55%;
+        margin: 5% 10% 0 0;
+            
+        h2{
+              font-size: 2.5rem;  
+            }
+
+        p {
+
+            display: none;
+        }    
+
+        }
+    }
+
+    #quiet-kids {
+
+        width: 33%;
+        height: 30%;
+       margin: 0% 0 0 0;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            @media @phone {
+                align-items: flex-end;
+                width: 45%;
+                margin: -26% 0 0 5%;
+            }
+
+            @media @tablet {
+                display: inline-flex;
+                position: relative;
+                flex-direction: row;
+               width: 40%;
+            }
+    }
+
+    .features {
+        display: flex;
+        justify-content: baseline;
+        color: @color1;
+        flex-wrap: wrap;
+        margin: 1% 7% 5% 0;
+        width: 33%;
+        height: 35%;
+        table-layout: auto;
+        font-family: 'Muli';
+        font-size: 3rem;
+        text-shadow: 1px 1px 2px lightgray;
+        font-weight: bold;
+
+        p {
+            color: white;
+        }
+
+        li {
+            //text-shadow: 1px 1px 2px lightgray;
+            color: white;
+        }
+
+            @media @phone{
+                width: 80%;
+                font-size: 1rem;
+
+                h2 {
+
+                   font-size: 1rem;  
+                   margin: 0 0 0 5.5%;
+                   color:white;
+                   text-shadow: 1px 1px 2px darkslategray;
+                }
+
+                p {
+                  display: none;  
+                }
+
+                li {
+                    width: 80%;
+                    align-items: center;    
+                    font-size: 1rem;
+                    font-weight: 100;
+                    margin: 0 0 0 12%;
+                    color: black;
+                    padding-top: 2%; font-size: 1.5rem;
+                }
+            }
+            @media @tablet {
+                display: flex;
+                margin: 0 0 0 5%;
+                width: 65%;
+               
+
+                h2 {
+                    width: 80%;
+                    font-size: 2.5rem;
+
+                }
+
+                p {
+
+                    color: white;
+                    font-size: 1.875rem;
+                }
+                    
+                li{
+
+                    color: white;
+                    font-size: 1.875rem;
+                }
+               
+            }
+
+        }
+
+        

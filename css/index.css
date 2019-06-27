@@ -187,8 +187,8 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  font-family: 'sandShoesBold';
+  font-weight: bolder;
   margin: 3% 0 1% 0;
 }
 p {
@@ -257,7 +257,10 @@ header {
 #slogan h2 {
   color: #D92949;
   margin-left: 10%;
-  font-size: 2rem;
+  font-size: 3.25rem;
+  font-family: 'sandShoesBold';
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px lightgray;
 }
 #slogan p {
   display: block;
@@ -328,8 +331,8 @@ header {
   justify-content: baseline;
   color: #D92949;
   flex-wrap: wrap;
-  margin: 0% 7% 5% 0;
-  width: 35%;
+  margin: 0% 6% 5% 0;
+  width: 33%;
   height: 35%;
   table-layout: auto;
   font-family: 'Muli';
@@ -337,7 +340,8 @@ header {
   text-shadow: 1px 1px 2px lightgray;
 }
 .features h2 {
-  font-size: 4rem;
+  font-size: 3.25rem;
+  font-family: sandShoesBold;
 }
 .features p {
   display: block;

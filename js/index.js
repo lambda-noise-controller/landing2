@@ -28,6 +28,8 @@ appleLogo.addEventListener(
   function(event) {
     TweenMax.to(".navBarContainer", 2, {opacity: 0});
     TweenMax.to("#apple", 3, {opacity: 1});
+    // location.reload();
+    // location.reload();
    })
 
 const allNav = document.querySelectorAll("a");

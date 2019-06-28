@@ -242,7 +242,7 @@ p {
 .top #slogan {
   font-family: 'Muli';
   width: 30%;
-  margin: 0% 0 0 0%;
+  margin: 0% 0 0% 0%;
   padding: 0%;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -251,24 +251,26 @@ p {
 
 .top #slogan h2 {
   color: #F2E205;
-  margin-left: 10%;
-  font-size: 3.25rem;
+  margin: 5% 0 0 10%;
+  font-size: 3rem;
   font-family: 'sandShoesBold';
   font-weight: bolder;
   text-shadow: 1px 1px 2px lightgray;
 }
 
 .top #slogan p {
-  display: block;
-  position: relative;
-  left: 5%;
-  bottom: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 80%;
   height: 20%;
   color: white;
-  margin: 22% 0 0 5%;
+  margin: 5% 0 15% 7%;
+  padding: 0 5% 0 5%;
+  font-weight: normal;
+  text-shadow: 1px 1px 2px lightgray;
   font-family: 'Muli';
-  font-size: small;
+  font-size: large;
 }
 
 .top #slogan #logIn {
@@ -281,15 +283,12 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
-  left: 25%;
-  bottom: 20%;
   background: #0cb826;
   text-decoration: none;
   color: white;
   border-radius: .5rem;
-  padding: 1rem 2rem;
-  margin: -10% 10% 40% 0;
+  padding: 0 0 0 0;
+  margin: 20% 0% 0% 20%;
   width: 20rem;
   height: 5rem;
   font-size: x-large;
@@ -361,17 +360,22 @@ p {
 }
 
 .top .features h2 {
-  font-size: 3.25rem;
+  font-size: 3rem;
+  margin: 4% 0 0 4%;
+  padding: 0 0 0 3%;
   font-family: sandShoesBold;
   color: #F2E205;
 }
 
 .top .features p {
-  display: block;
-  position: relative;
-  right: 9%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5% 10% 0 0;
+  padding: 0 10% 0 0;
   color: white;
   margin-left: 10%;
+  font-size: large;
   width: 150%;
   font-weight: normal;
   text-shadow: 1px 1px 2px lightgray;
@@ -380,7 +384,11 @@ p {
 
 .top .features li {
   color: white;
+  font-family: 'Muli';
+  font-size: large;
   text-shadow: 1px 1px 2px lightgray;
+  margin: 0 10% 0 10%;
+  padding: 0 10% 0  0;
 }
 
 @media (max-width: 800px) {

@@ -114,6 +114,14 @@ header {
     padding-top: 1%;
     //border: 1px solid red;
     letter-spacing: 1rem;
+
+    #devTitle {
+        display: block;
+        margin: 0 0% 0 0% ;
+        position: relative;
+        left: 70%;
+        text-align: center;
+    }
   
         @include tablet {
             font-size: 4rem;

@@ -7,9 +7,16 @@
 
     <title>Noise Controller - Home</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
+      <!-- JS -->
+      <script src="./js/index.js" async></script>
 
+       <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./scss/index.css">
+
+    <!-- Greensock -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+   
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=B612+Mono|Montserrat|Muli&display=swap" rel="stylesheet">
 
@@ -18,16 +25,16 @@
       defer
       src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
     ></script>
-
-    <!-- JS -->
-    <script sec="./components/TBD.js" async></script>
+ 
   </head>
+  
 
   <div class="navBarContainer">
+    <img id='navCloseBtn' src="./img/menu-close-x.png" alt = "Menu Close X" </img>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a href="#">Login</a>
+      <a href="https://noise-controller.netlify.com">Login</a>
     </nav>
     
   </div>
@@ -37,7 +44,7 @@
     <div id="apple">
 
       <img id="appleImage" src="./img/nice-apple.png" alt="Nice Apple!"</img>
-      <p>MENU</p>
+      <p id="appleLabel">MENU</p>
    </div>
 
     <h1> Noise Controller</h1>
@@ -57,6 +64,8 @@
       <p>A loud classroom gets kids excited, excited kids get loud...
       Noise Controller can help you break the cycle and get them ready for learning.
     </p>
+    <!-- <button id=logIn >Log In</button> -->
+    <a href='https://noise-controller.netlify.com//'><button id=logIn>Log In</button></a>'><button>Link To freeCodeCamp</button></a>
       </div>
 <!--
     </section>

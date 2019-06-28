@@ -1,5 +1,5 @@
 .about {
-  background: @color2;
+  background: $NCviolet;
   width: 100%;
   max-width: 1000px;
   margin: auto;
@@ -16,7 +16,7 @@
   margin-top: 2.5%;
   margin-bottom: 2.5%;
 
-  @media @phone {
+  @include phone {
     height: 500px;
   }
 
@@ -26,11 +26,11 @@
     // border: solid 1px red;
     font-size: 1.5rem;
 
-    @media @tablet {
+    @include tablet {
       width: 45%;
     }
 
-    @media @phone {
+    @include phone {
       width: 80%;
     }
 

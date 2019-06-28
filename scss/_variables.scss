@@ -1,22 +1,21 @@
 // colors
-// @color1: #f2f4d1;
-// @color2: #b2d3be;
-// @color3: #89a3b2;
-// @color4: #5e6073;
-// @color5:  rgb(243, 229, 72);
 
-@color1: #D92949;
-@color2: #7F3FBF;
-@color3: #04D924;
-@color4: #F2E205;
-@color5: #F28705;
-@color6: darkgray;
-@apple-red: rgba(187, 14, 14, 0.815);
+$NCred: #D92949;
+$NCviolet: #7F3FBF;
+$NCgreen: rgb(12, 184, 38);
+$NCyellow: #F2E205;
+$NCorange: #F28705;
+$NCgray: darkgray;
+$NCblue: blue;
+
+$apple-red: rgba(187, 14, 14, 0.815);
 // phone
-@phone: ~'(max-width: 500px)';
 
-// tablet
-@tablet: ~'(max-width: 800px)';
+
+
+$phone: 568px;  
+
+$tablet: 800px;
 
 @font-face {
   font-family: 'skruffyAngel';

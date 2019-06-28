@@ -1,0 +1,59 @@
+.cards-container {
+  
+  justify-content: space-evenly;
+  width: 100%;
+  position: relative;
+  left: 35%;
+  top: 165%;
+  margin-top: 16px;
+  flex-wrap: wrap;
+  //@media(min-width: 1200px){
+    width: 100%;
+    
+  }
+  .card {
+   border-bottom: grey;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    width: 380px;
+    margin-bottom: 16px;
+    padding: 24px;
+    .headline {
+      font-size: 25px;
+      font-family: Didot, serif;
+    }
+    .name {
+      flex-direction: row;
+      margin-top: 15px;
+      .img-container {
+        padding-right: 10px;
+        color: black;
+        border-right: 1px solid lightgrey;
+        height: 40px;
+        img {
+          width: 40px;
+        }
+      }
+      span {
+        padding-left: 10px;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: bold;
+      }
+
+      .img-container {
+
+        position: relative;
+        top: 25%;
+      }
+
+
+      #david {
+        height: 100%;
+        width: auto;
+
+
+      }
+    }
+  }
